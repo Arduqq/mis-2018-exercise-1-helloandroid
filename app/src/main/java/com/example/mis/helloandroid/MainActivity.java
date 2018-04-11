@@ -37,29 +37,32 @@ public class MainActivity extends AppCompatActivity {
 
     @RequiresApi(api = Build.VERSION_CODES.KITKAT)
     public void connectToURL(View view) throws IOException {
-        EditText editText = (EditText)findViewById(R.id.textInputLayout);
-        TextView textView = (TextView)findViewById(R.id.textView);
-        String searchURL = (String) editText.getText().toString();
-
-        try {
-            String html = "";
-            URL url = new URL(searchURL);
-            HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
-            InputStream in = new BufferedInputStream(urlConnection.getInputStream());
-            BufferedReader reader = new BufferedReader(new InputStreamReader(in));
-            StringBuilder str = new StringBuilder();
-            String line = null;
-            while((line = reader.readLine()) != null) {
-                str.append(line);
+        Thread thread = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                EditText editText = (EditText)findViewById(R.id.textInput);
+                TextView textView = (TextView)findViewById(R.id.textView);
+                String searchURL = (String) editText.getText().toString();
+                String html = "";
+                try {
+                    URL url = new URL(searchURL);
+                    HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
+                    InputStream in = new BufferedInputStream(urlConnection.getInputStream());
+                    BufferedReader reader = new BufferedReader(new InputStreamReader(in));
+                    StringBuilder str = new StringBuilder();
+                    String line = null;
+                    while((line = reader.readLine()) != null) {
+                        str.append(line);
+                    }
+                    in.close();
+                    html = str.toString();
+                    textView.setText(html);
+                } catch(Exception e) {
+                }
             }
-            in.close();
-            html = str.toString();
-            textView.setText(html);
-        } catch(Exception e) {
-            Toast toast = Toast.makeText(MainActivity.this, e.toString(), Toast.LENGTH_SHORT);
-            toast.setGravity(Gravity.CENTER, 0 ,0);
-            toast.show();
-        }
+        });
+        thread.start();
+
 
     }
 }
