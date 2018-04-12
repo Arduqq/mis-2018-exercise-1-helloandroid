@@ -1,0 +1,179 @@
+DROID INFO BERICHT
+
+
+GERÄT
+Modell: ONEPLUS A3003 (OnePlus3)
+Hersteller: OnePlus
+Baseband-Version: MPSS.TH.2.0.c1.9-00102-M8996FAAAANAZM-1.99649.1.118107.1
+RIL-Version: Qualcomm RIL 1.0
+Build-Nummer: ONEPLUS A3003_28_171227
+Build-Fingerprint: OnePlus/OnePlus3/OnePlus3T:8.0.0/OPR6.170623.013/12041042:user/release-keys
+Bootloader: unknown
+Java VM: ART 2.1.0
+OS-Version: O (8.0.0)
+SDK: 26
+
+DISPLAY
+Auflösung: Full HD, 1080x1920 pixels
+Softwaredichte: 420 dpi
+Erneuerungsrate: 60 Hz
+
+PROZESSOR
+CPU-Architektur: ARMv8-A
+Board: msm8996
+Chipsatz: Qualcomm Technologies, Inc MSM8996pro
+Kerne: 4
+Taktungsgeschwindigkeit: 2188 MHz - 2342 MHz
+Anleitungssets: arm64-v8a
+CPU-Features: fp asimd evtstrm aes pmull sha1 sha2 crc32
+CPU-Regulator: interactive
+Kernel-Version: 3.18.66-perf+
+Kernel-Architektur: aarch64
+
+GRAFIKEN
+Renderer: Adreno (TM) 530
+Verkäufer: Qualcomm
+OpenGL-Version: OpenGL ES 3.2
+
+RAM
+Gesamt: 5739 MB
+Java Heap: 256 MB
+
+SPEICHER
+Intern: 53,5 GB
+EXTERN: Nicht erkannt
+
+PRIMÄR KAMERA
+Auflösung: 16,1 MP
+Blitz: Ja
+Video Auflösung: 4K UHD, 3840x2160
+Unterstützte Auflösungen: 
+    Bild:
+    4640x3480
+    4640x2610
+    4608x3456
+    4608x2592
+    3488x3488
+    3840x2160
+    3456x3456
+    3264x2448
+    3264x1836
+    2464x2464
+    2304x1728
+    2304x1296
+    1920x1080
+    1728x1728
+    1440x1080
+    1280x720
+    1080x1080
+    720x480
+    640x480
+    480x360
+    480x320
+    352x288
+    320x240
+    176x144
+
+    Video:
+    3840x2160 (4K UHD)
+    1920x1080 (Full HD)
+    1280x720 (HD)
+    720x480
+    640x480 (VGA)
+    352x288
+    320x240
+    176x144
+
+SEKUNDÄR KAMERA
+Auflösung: 15,9 MP
+Video Auflösung: Full HD, 1920x1080
+Unterstützte Auflösungen: 
+    Bild:
+    4608x3456
+    4608x2592
+    3840x2160
+    3456x3456
+    2304x1728
+    2304x1296
+    1920x1080
+    1728x1728
+    1440x1080
+    1280x720
+    1080x1080
+    720x480
+    640x480
+    480x360
+    480x320
+    352x288
+    320x240
+    176x144
+
+    Video:
+    1920x1080 (Full HD)
+    1280x720 (HD)
+    720x480
+    640x480 (VGA)
+    352x288
+    320x240
+    176x144
+
+FEATURES
+Bluetooth: Ja
+Bluetooth LE: Ja
+GPS: Ja
+NFC: Ja
+USB Zubehörteil: Ja
+WiFi: Ja
+WiFi Direct: Ja
+
+AKKU
+Technologie: Li-ion
+Gesundheit: Gut
+
+SENSOREN
+LSM6DS3 Accelerometer
+LSM6DS3 Accelerometer Uncalibrated
+MMC3416PJ Magnetometer
+MMC3416PJ Magnetometer Uncalibrated
+LSM6DS3 Gyroscope
+LSM6DS3 Gyroscope Uncalibrated
+APDS-9922 Proximity
+APDS-9922 Light
+LSM6DS3 Accelerometer -Wakeup Secondary
+LSM6DS3 Accelerometer Uncalibrated -Wakeup Secondary
+MMC3416PJ Magnetometer -Wakeup Secondary
+MMC3416PJ Magnetometer Uncalibrated -Wakeup Secondary
+LSM6DS3 Gyroscope -Wakeup Secondary
+LSM6DS3 Gyroscope Uncalibrated -Wakeup Secondary
+APDS-9922 Proximity -Non Wakeup Secondary
+APDS-9922 Light -Wakeup Secondary
+Gravity
+Linear Acceleration
+Rotation Vector
+Step Detector
+Step Counter
+Significant Motion Detector
+Game Rotation Vector
+GeoMagnetic Rotation Vector
+Orientation
+Tilt Detector
+Gravity -Wakeup Secondary
+Linear Acceleration -Wakeup Secondary
+Rotation Vector -Wakeup Secondary
+Step Detector -Wakeup Secondary
+Step Counter -Wakeup Secondary
+Game Rotation Vector -Wakeup Secondary
+GeoMagnetic Rotation Vector -Wakeup Secondary
+Orientation -Wakeup Secondary
+AMD
+RMD
+Basic Gestures
+Facing
+Pedometer
+Motion Accel
+Coarse Motion Classifier
+Pocket Detect
+Pickup
+
+
+Erstellt von Droid Info
